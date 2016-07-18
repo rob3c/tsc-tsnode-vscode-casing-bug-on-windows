@@ -1,10 +1,10 @@
 ## Overview
 
-The 2016-07-14 release of Visual Studio Code Insiders edition changed the behavior of their _Open New Command Prompt_ command (`ctrl+shift+C`) on Windows. Now, it lower-cases the drive letter in the new console's prompt, and that seems to affect the ability of at least `ts-node` (and possibly other tools) to build typescript code when the `forceConsistentCasingInFileNames` compiler option is set in _tsconfig.json_.
+Starting with the 2016-07-14 release of Visual Studio Code Insiders edition (and now released in regular VSCode 1.3.1), the behavior of the _Open New Command Prompt_ command (`ctrl+shift+C`) changed on Windows. Now, it lower-cases the drive letter in the new console's prompt, and that seems to affect the ability of at least `ts-node` (and possibly other tools) to build typescript code when the `forceConsistentCasingInFileNames` compiler option is set in _tsconfig.json_.
 
 ## Step 1 - Open the command prompts for comparison
 
-- Using vscode insiders build from 2016-07-14, invoke the `Open New Command Prompt` command via `ctrl+shift+C` (or find it using _View | Command Palette..._ in the menu). Notice that the drive letter in the prompt is lower case now!
+- Within vscode, invoke the `Open New Command Prompt` command via `ctrl+shift+C` (or find it using _View | Command Palette..._ in the menu). Notice that the drive letter in the prompt is lower case now!
 
 - Open a standard Windows Command Prompt outside of vscode in the normal way, and navigate to this project's root folder. Notice that the standard console has a captial drive letter.
 3
