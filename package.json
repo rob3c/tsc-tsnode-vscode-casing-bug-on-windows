@@ -1,0 +1,14 @@
+{
+  "name": "tsc-tsnode-vscode-casing-bug-on-windows",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "break-stuff": "ts-node index.ts"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^0.9.3",
+    "typescript": "^1.8.10"
+  }
+}

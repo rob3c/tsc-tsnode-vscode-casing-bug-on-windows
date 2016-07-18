@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "bin",
+        "target": "es5"
+    },
+    "exclude": [
+        "bin",
+        "node_modules"
+    ],
+    "compileOnSave": false
+}
